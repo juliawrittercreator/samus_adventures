@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: url("assets/images/background-paper.png") repeat;
+  color: #3a3a3a;
+}
+
+.page {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+h1, h2 {
+  font-family: "Botanica Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* GLOBAL IMAGE CONTROL */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  position: relative;
+}
+
+.sun {
+  width: 120px;
+}
+
+.fox {
+  width: 220px;
+}
+
+/* APP MOCKUPS */
+.app-preview img {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.hero-phone {
+  max-width: 320px;
+}
+
+/* FEATURES */
+.features ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+/* COMING SOON */
+.previews img {
+  max-width: 480px;
+}
+
+/* APP ICON */
+.icon {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+/* APP STORE BADGE */
+.download img {
+  width: 180px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 60px;
+}
