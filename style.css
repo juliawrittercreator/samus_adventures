@@ -1,77 +1,51 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  background: url("assets/images/background-paper.png") repeat;
-  color: #3a3a3a;
+  font-family: system-ui, sans-serif;
 }
 
-.page {
-  max-width: 1200px;
-  margin: auto;
-  padding: 40px 20px;
+/* HERO CONTAINER */
+.hero {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
-h1, h2 {
-  font-family: "Botanica Sans", -apple-system, BlinkMacSystemFont, sans-serif;
-}
-
-/* GLOBAL IMAGE CONTROL */
-img {
-  max-width: 100%;
+/* BIG IMAGE */
+.hero-image {
+  width: 100%;
   height: auto;
   display: block;
 }
 
-/* HERO */
-.hero {
-  text-align: center;
-  position: relative;
+/* APPLE BADGE */
+.apple-badge {
+  position: absolute;
+  top: 24px;
+  right: 24px;
 }
 
-.sun {
-  width: 120px;
+.apple-badge img {
+  width: 160px;
 }
 
-.fox {
-  width: 220px;
+/* EMAIL SIGNUP */
+.waitlist {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
 }
 
-/* APP MOCKUPS */
-.app-preview img {
-  max-width: 700px;
-  margin: 0 auto;
+.waitlist input {
+  padding: 10px 14px;
+  font-size: 16px;
 }
 
-.hero-phone {
-  max-width: 320px;
-}
-
-/* FEATURES */
-.features ul {
-  list-style: none;
-  padding: 0;
-  text-align: center;
-}
-
-/* COMING SOON */
-.previews img {
-  max-width: 480px;
-}
-
-/* APP ICON */
-.icon {
-  width: 120px;
-  margin-bottom: 20px;
-}
-
-/* APP STORE BADGE */
-.download img {
-  width: 180px;
-}
-
-/* FOOTER */
-footer {
-  text-align: center;
-  font-size: 0.9rem;
-  margin-top: 60px;
+.waitlist button {
+  padding: 10px 16px;
+  font-size: 16px;
+  cursor: pointer;
 }
