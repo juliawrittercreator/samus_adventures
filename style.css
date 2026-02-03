@@ -9,6 +9,7 @@ body {
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
+  overflow: visible;
 }
 
 /* BIG IMAGE */
@@ -18,8 +19,7 @@ body {
   display: block;
 }
 
-
-/* HERO CONTAINER */
+/* FOOTER CONTAINER */
 .body_footer {
   position: relative;
   width: 100%;
@@ -27,13 +27,12 @@ body {
   margin: 0 auto;
 }
 
-/* BIG IMAGE */
+/* FOOTER IMAGE */
 .body_footer-image {
   width: 100%;
   height: auto;
   display: block;
 }
-
 
 /* APPLE BADGE POSITIONING */
 .apple-badge {
@@ -46,7 +45,6 @@ body {
 .apple-badge img {
   width: 180px;
 }
-
 
 /* EMAIL SIGNUP */
 .waitlist {
