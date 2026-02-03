@@ -19,7 +19,20 @@ body {
 }
 
 
+/* HERO CONTAINER */
+.body_footer {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
 
+/* BIG IMAGE */
+.body_footer-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 
 /* APPLE BADGE POSITIONING */
