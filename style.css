@@ -9,7 +9,7 @@ body {
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
-  overflow: visible;
+  min-height: 5000px; /* adjust to your hero image height */
 }
 
 /* BIG IMAGE */
