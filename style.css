@@ -18,16 +18,22 @@ body {
   display: block;
 }
 
-/* APPLE BADGE */
+
+
+
+
+/* APPLE BADGE POSITIONING */
 .apple-badge {
   position: absolute;
-  top: 24px;
-  right: 24px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .apple-badge img {
-  width: 160px;
+  width: 180px;
 }
+
 
 /* EMAIL SIGNUP */
 .waitlist {
